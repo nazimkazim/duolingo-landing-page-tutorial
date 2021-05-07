@@ -247,3 +247,267 @@
 .arrow-slide-right img {
   width: 25px;
 }
+
+.why-duolingo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.why-duolingo-section-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  max-width: 1065px;
+  min-height: 225px;
+  border-bottom: 2px solid #d6d6d6;
+}
+
+.block-1-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 185px;
+  height: 100%;
+}
+
+.block-1-image-container img {
+  width: 90%;
+}
+
+.block-1-content-container {
+  padding: 10px;
+  width: 728px;
+  height: 100%;
+}
+
+.block-1-content-container span {
+  margin-top: 20px;
+  display: block;
+  color: #777;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+.see-how-we-do-it {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #5390d9;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  align-self: flex-start;
+  margin-top: 20px;
+}
+
+.see-how-we-do-it img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+h1 {
+  color: #3c3c3c;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 0 0 25px;
+}
+
+.duolingo-gamification-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  max-width: 1065px;
+  min-height: 225px;
+  border-bottom: 2px solid #d6d6d6;
+}
+
+.duolingo-gamification-title {
+  margin-bottom: 60px;
+}
+
+.duolingo-gamification-block-one-third-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.duolingo-gamification-block-one-third {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.333333%;
+  height: 100%;
+}
+
+.duolingo-gamification-block-one-third.center img {
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.duolingo-gamification-block-one-third-item-info {
+  width: 100%;
+  height: 100%;
+}
+
+.duolingo-gamification-block-one-third-item {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  width: 100%;
+}
+
+.duolingo-gamification-block-one-third-item img {
+  display: flex;
+  align-self: flex-start;
+}
+
+.duolingo-gamification-block-one-third-item-info h2 {
+  font-size: 19px;
+  color: #3c3c3c;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.duolingo-gamification-block-one-third-item-info p {
+  font-size: 14px;
+  color: #777777;
+  margin-top: 10px;
+  line-height: 1.6;
+  margin-left: 10px;
+}
+
+.duolingo-plus-block-1,
+.duolingo-plus-block-2,
+.duolingo-plus-block-3,
+.duolingo-plus-block-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 1065px !important;
+  min-height: 225px;
+  border-bottom: 2px solid #d6d6d6;
+}
+
+.duolingo-plus-block-1,
+.duolingo-plus-block-2,
+.duolingo-plus-block-3 .image-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  height: 100%;
+  flex: 1 1 30%;
+}
+
+.duolingo-plus-block-1,
+.duolingo-plus-block-2,
+.duolingo-plus-block-3 .image-container img {
+  width: 70%;
+}
+
+.info-container {
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.info-container .info-container-header {
+  color: #3c3c3c;
+  font-size: 24px;
+  line-height: 26px;
+  margin-top: 40px;
+}
+
+.regular {
+  font-size: 14px;
+  color: #777777;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.learn-more {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #29d5ff;
+  transition: 0.6s;
+  margin-top: 30px;
+}
+
+.duolingo-plus-block-1,
+.duolingo-plus-block-2,
+.duolingo-plus-block-3,
+.duolingo-plus-block-4 .info-container .learn-more:hover {
+  color: #5390d9;
+}
+
+.ios-android-container {
+  display: flex;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  min-width: 400px;
+  height: 82px;
+  margin-left: 10px;
+}
+
+.ios-android-container .item {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 16px;
+  border-width: 2px;
+  margin-right: 10px;
+  border-style: solid;
+  height: 100%;
+  width: 192px;
+  border-color: #e5e5e5;
+  transition: 0.6s;
+}
+
+.ios-android-container .item:hover {
+  background-color: #dee2e6;
+}
+
+.ios-android-container .item img {
+  width: 24px;
+}
+
+.ios-android-container .item .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+  height: 100%;
+}
+
+.ios-android-container .item .content span {
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #4b4b4b;
+}
+
+.ios-android-container .item .content .top {
+  font-size: 12px;
+}
+
+.no-bottom-border {
+  border-bottom: none;
+}
